@@ -1,7 +1,7 @@
 # Project 2125: Python - More Classes and Objects
 ----
 
-* [Quiz](#quiz)
+
 ## Resources
 
 **Read or watch**:

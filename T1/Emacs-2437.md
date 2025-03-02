@@ -1,7 +1,7 @@
 # Project 2437: Emacs
 ----
 
-* [Quiz](#quiz)
+
 # Congrats!
 
 Now you know how to navigate into a Unix system!
@@ -39,17 +39,11 @@ At the end of this project, you are expected to be able to[explain to anyone](ht
 
 In Emacs’ documentation, what does`C`in a shortcut command stand for?
 
-* 
+ * Command
 
-Command
+ * Ctrl
 
-* 
-
-Ctrl
-
-* 
-
-Shift + C
+ * Shift + C
 
 #### Question #1
 
@@ -57,41 +51,27 @@ In Emacs’ documentation, what does`M`in a shortcut command stand for?
 
 *Select all correct answers*
 
-* 
+ * Alt
 
-Alt
+ * Shift + M
 
-* 
-
-Shift + M
-
-* 
-
-Meta
+ * Meta
 
 #### Question #2
 
 In Emacs, a buffer is an object that a file’s text is held in.
 
-* 
+ * True
 
-True
-
-* 
-
-False
+ * False
 
 #### Question #3
 
 You can only have one buffer open in Emacs at a time.
 
-* 
+ * True
 
-True
-
-* 
-
-False
+ * False
 
 
 ----

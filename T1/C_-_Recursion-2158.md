@@ -1,7 +1,7 @@
 # Project 2158: C - Recursion
 ----
 
-* [Quiz](#quiz)
+
 
 ![1](2158_1.jpg)
 
@@ -9,7 +9,7 @@
 
 **Read or watch**:
 
-* [Recursion, introduction](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/misc/2021/1/2818ba6f14f644b871dcbd746925fa15b8cd5937.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250301%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250301T085742Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=da6125d409c53151a32056211a02ba23782a15ebed04b144506ecbaaa2ce2b5b)
+* [Recursion, introduction](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/misc/2021/1/2818ba6f14f644b871dcbd746925fa15b8cd5937.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250302%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250302T012340Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=fcbd6db6d8bd87cbe84b9dcecf9b058f55f931289d92d540f21c3704f9ea018b)
 * [What on Earth is Recursion?](https://www.youtube.com/watch?v=Mv9NEXX1VHc)
 * [C - Recursion](https://www.tutorialspoint.com/cprogramming/c_recursion.htm)
 * [C Programming Tutorial 85, Recursion pt.1](https://www.youtube.com/watch?v=XGxbXMP6k8k)
@@ -66,21 +66,13 @@ int main(void)
 }
 ```
 
-* 
+ * 012
 
-012
+ * 12
 
-* 
+ * 21
 
-12
-
-* 
-
-21
-
-* 
-
-210
+ * 210
 
 #### Question #1
 
@@ -105,21 +97,13 @@ int main(void)
 }
 ```
 
-* 
+ * 4321
 
-4321
+ * 43210
 
-* 
+ * 321
 
-43210
-
-* 
-
-321
-
-* 
-
-3210
+ * 3210
 
 #### Question #2
 
@@ -144,21 +128,13 @@ int main(void)
 }
 ```
 
-* 
+ * 987654
 
-987654
+ * 109876543
 
-* 
+ * 345678910
 
-109876543
-
-* 
-
-345678910
-
-* 
-
-456789
+ * 456789
 
 #### Question #3
 
@@ -184,21 +160,13 @@ int main(void)
 }
 ```
 
-* 
+ * 01234
 
-01234
+ * 43210
 
-* 
+ * 1234
 
-43210
-
-* 
-
-1234
-
-* 
-
-4321
+ * 4321
 
 #### Question #4
 
@@ -224,17 +192,11 @@ int main(void)
 }
 ```
 
-* 
+ * 64200
 
-64200
+ * 00246
 
-* 
-
-00246
-
-* 
-
-01234568
+ * 01234568
 
 
 ----

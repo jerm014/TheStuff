@@ -10,7 +10,8 @@
 
 **Read or watch**:
 
-* **REST API**concept page
+**REST API** (TODO:concept page)
+
 * [Learn REST: A RESTful Tutorial](https://www.restapitutorial.com/)
 * [Designing a RESTful API with Python and Flask](https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask)
 * [HTTP access control (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)

@@ -1,7 +1,7 @@
 # Project 2163: C - Preprocessor
 ----
 
-* [Quiz](#quiz)
+
 ## Resources
 
 **Read or watch**:
@@ -57,37 +57,25 @@ What are the steps of compilation?
 
 The preprocessor generates assembly code
 
-* 
+ * True
 
-True
-
-* 
-
-False
+ * False
 
 #### Question #2
 
 The preprocessor generates object code
 
-* 
+ * True
 
-True
-
-* 
-
-False
+ * False
 
 #### Question #3
 
 The preprocessor links our code with libraries.
 
-* 
+ * True
 
-True
-
-* 
-
-False
+ * False
 
 #### Question #4
 
@@ -98,69 +86,43 @@ This portion of code is actually using the library stdlib.
 #include <stdlib.h>
 ```
 
-* 
+ * True
 
-True
-
-* 
-
-False
+ * False
 
 #### Question #5
 
 The preprocessor removes all comments
 
-* 
+ * True
 
-True
-
-* 
-
-False
+ * False
 
 #### Question #6
 
 What is the`gcc`option that runs only the preprocessor?
 
-* 
+ * -a
 
--a
+ * -P
 
-* 
+ * -p
 
--P
+ * -pedantic
 
-* 
+ * -E
 
--p
+ * -cisfun
 
-* 
-
--pedantic
-
-* 
-
--E
-
-* 
-
--cisfun
-
-* 
-
--preprocessor
+ * -preprocessor
 
 #### Question #7
 
 `NULL`is a macro
 
-* 
+ * True
 
-True
-
-* 
-
-False
+ * False
 
 #### Question #8
 
@@ -223,13 +185,9 @@ This code will try to allocate 1024 bytes in the heap:
 malloc(BUFFER_SIZE)
 ```
 
-* 
+ * True
 
-True
-
-* 
-
-False
+ * False
 
 #### Question #10
 
@@ -243,17 +201,11 @@ What does the macro`TABLESIZE`expand to?
 #define BUFSIZE 37
 ```
 
-* 
+ * 1020
 
-1020
+ * 37
 
-* 
-
-37
-
-* 
-
-nothing
+ * nothing
 
 #### Question #11
 
@@ -264,31 +216,23 @@ This is the correct way to define the macro`SUB`:
 #define SUB(a, b) a - b
 ```
 
-* 
+ * Yes
 
-Yes
-
-* 
-
-No, it should be written this way:
+ * No, it should be written this way:
 
 ``
 ```
 #define SUB(a, b) (a - b)
 ```
 
-* 
-
-No, it should be written this way:
+ * No, it should be written this way:
 
 ``
 ```
 #define SUB(a, b) (a) - (b)
 ```
 
-* 
-
-No, it should be written this way:
+ * No, it should be written this way:
 
 ``
 ```
@@ -299,25 +243,17 @@ No, it should be written this way:
 
 Why should we use include guards in our header files?
 
-* 
+ * Because we said so, and we should never ask why.
 
-Because we said so, and we should never ask why.
-
-* 
-
-To avoid the problem of double inclusion when dealing with the include directive.
+ * To avoid the problem of double inclusion when dealing with the include directive.
 
 #### Question #13
 
 The macro`__FILE__`expands to the name of the current input file, in the form of a C string constant.
 
-* 
+ * True
 
-True
-
-* 
-
-False
+ * False
 
 #### Question #14
 
@@ -340,29 +276,17 @@ int main(void)
 }
 ```
 
-* 
+ * Segmentation Fault
 
-Segmentation Fault
+ * It does not compile
 
-* 
+ * sizeof(i) = 8
 
-It does not compile
+ * sizeof(i) = 5
 
-* 
+ * sizeof(i) = 4
 
-sizeof(i) = 8
-
-* 
-
-sizeof(i) = 5
-
-* 
-
-sizeof(i) = 4
-
-* 
-
-sizeof(i) = 1
+ * sizeof(i) = 1
 
 
 ----

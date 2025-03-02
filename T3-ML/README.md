@@ -1,0 +1,16 @@
+ - [2275: Linear Algebra](Linear_Algebra-2275.md)<!--project.index=0-->
+ - [2280: Plotting](Plotting-2280.md)<!--project.index=1-->
+ - [2278: Calculus](Calculus-2278.md)<!--project.index=2-->
+ - [2321: Probability](Probability-2321.md)<!--project.index=3-->
+ - [2427: Classification - reading](Classification_-_reading-2427.md)<!--project.index=4-->
+ - [2282: Classification Using Neural Networks](Classification_Using_Neural_Networks-2282.md)<!--project.index=5-->
+ - [2287: Tensorflow](Tensorflow-2287.md)<!--project.index=6-->
+ - [2293: Optimization](Optimization-2293.md)<!--project.index=7-->
+ - [2295: Error Analysis](Error_Analysis-2295.md)<!--project.index=8-->
+ - [2297: Regularization](Regularization-2297.md)<!--project.index=9-->
+ - [2300: Tensorflow 2 & Keras](Tensorflow_2_and_Keras-2300.md)<!--project.index=10-->
+ - [2301: Convolutions and Pooling](Convolutions_and_Pooling-2301.md)<!--project.index=11-->
+ - [2303: Convolutional Neural Networks](Convolutional_Neural_Networks-2303.md)<!--project.index=12-->
+ - [2305: Deep Convolutional Architectures](Deep_Convolutional_Architectures-2305.md)<!--project.index=13-->
+ - [2311: Transfer Learning](Transfer_Learning-2311.md)<!--project.index=14-->
+ - [2315: Object Detection](Object_Detection-2315.md)<!--project.index=15-->

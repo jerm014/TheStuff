@@ -20,7 +20,7 @@ Write your own`printf`function.
 
 **Read or watch**:
 
-* [Secrets of printf](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/misc/2022/11/d38f88e96a617135804dca9f9c49632751e06aa7.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250301%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250301T090049Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=8c843d21cc430430a8f175c22aefddfc56f052b614bd9a930aa2b9da1aeeac34)
+* [Secrets of printf](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/misc/2022/11/d38f88e96a617135804dca9f9c49632751e06aa7.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250302%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250302T012521Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=d79d096f1b82dfdaa9a74594252d1f506bd4df638621c4d8a14a9c371a4b503f)
 * **Group Projects**concept page (*Don’t forget to read this*)
 * **Flowcharts**concept page
 

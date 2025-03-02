@@ -1,7 +1,7 @@
 # Project 2159: C - Static libraries
 ----
 
-* [Quiz](#quiz)
+
 
 *For this project, we expect you to look at this concept:*
 
@@ -65,85 +65,51 @@ You do not need to learn about dynamic libraries, yet.
 
 What command is used to create a static library from object files?
 
-* 
+ * gcc
 
-gcc
+ * ld
 
-* 
+ * ranlib
 
-ld
+ * ar
 
-* 
-
-ranlib
-
-* 
-
-ar
-
-* 
-
-nm
+ * nm
 
 #### Question #1
 
 What is the point of using`ranlib`?
 
-* 
+ * Creating an archive
 
-Creating an archive
+ * Indexing an archive
 
-* 
+ * Create a library from a simple archive
 
-Indexing an archive
-
-* 
-
-Create a library from a simple archive
-
-* 
-
-List the content of a library
+ * List the content of a library
 
 #### Question #2
 
 What command(s) can be used to list the symbols stored in a static library?
 
-* 
+ * nm
 
-nm
+ * ranlib
 
-* 
+ * ar
 
-ranlib
-
-* 
-
-ar
-
-* 
-
-ld
+ * ld
 
 #### Question #3
 
 What is the format of a static library?
 
-* 
+ * A relocatable ELF file
 
-A relocatable ELF file
+ * An executable ELF file
 
-* 
+ * A shared ELF file
 
-An executable ELF file
-
-* 
-
-A shared ELF file
-
-* 
-
-An archive
+ * An archive
 
 
 ----

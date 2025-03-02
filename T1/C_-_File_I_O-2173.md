@@ -1,7 +1,7 @@
 # Project 2173: C - File I/O
 ----
 
-* [Quiz](#quiz)
+
 ## Resources
 
 **Read or watch**:
@@ -56,305 +56,179 @@ At the end of this project, you are expected to be able to[explain to anyone](ht
 
 What is the`unistd`symbolic constant for the standard input?
 
-* 
+ * STDIN_FILENO
 
-STDIN_FILENO
+ * STDOUT_FILENO
 
-* 
-
-STDOUT_FILENO
-
-* 
-
-STDERR_FILENO
+ * STDERR_FILENO
 
 #### Question #1
 
 What is the`unistd`symbolic constant for the standard output?
 
-* 
+ * STDIN_FILENO
 
-STDIN_FILENO
+ * STDOUT_FILENO
 
-* 
-
-STDOUT_FILENO
-
-* 
-
-STDERR_FILENO
+ * STDERR_FILENO
 
 #### Question #2
 
 What is the`unistd`symbolic constant for the Standard error?
 
-* 
+ * STDIN_FILENO
 
-STDIN_FILENO
+ * STDOUT_FILENO
 
-* 
-
-STDOUT_FILENO
-
-* 
-
-STDERR_FILENO
+ * STDERR_FILENO
 
 #### Question #3
 
 What is the`oflag`used to open a file with the mode read only?
 
-* 
+ * `O_WRONLY`
 
-`O_WRONLY`
+ * `O_RDONLY`
 
-* 
-
-`O_RDONLY`
-
-* 
-
-`O_RDWR`
+ * `O_RDWR`
 
 #### Question #4
 
 What is the`oflag`used to open a file in mode read + write?
 
-* 
+ * `O_WRONLY`
 
-`O_WRONLY`
+ * `O_RDONLY`
 
-* 
-
-`O_RDONLY`
-
-* 
-
-`O_RDWR`
+ * `O_RDWR`
 
 #### Question #5
 
 What is the correct combination of`oflag`s used to open a file with the mode write only, create it if it doesn’t exist and append new content at the end if it already exists?
 
-* 
+ * `O_WRONLY`
 
-`O_WRONLY`
+ * `O_WRONLY | O_CREAT | O_EXCL`
 
-* 
+ * `O_WRONLY | O_CREAT | O_APPEND`
 
-`O_WRONLY | O_CREAT | O_EXCL`
-
-* 
-
-`O_WRONLY | O_CREAT | O_APPEND`
-
-* 
-
-`O_RDWR | O_CREAT | O_APPEND`
+ * `O_RDWR | O_CREAT | O_APPEND`
 
 #### Question #6
 
 is`open`a function or a system call? (select all valid answers)
 
-* 
+ * it’s a function
 
-it’s a function
+ * it’s a system call
 
-* 
+ * it’s a library call
 
-it’s a system call
+ * it’s a function provided by the kernel
 
-* 
-
-it’s a library call
-
-* 
-
-it’s a function provided by the kernel
-
-* 
-
-it’s a kernel routine
+ * it’s a kernel routine
 
 #### Question #7
 
 What system call would you use to write to a file descriptor?
 
-* 
+ * printf
 
-printf
+ * fprintf
 
-* 
-
-fprintf
-
-* 
-
-write
+ * write
 
 #### Question #8
 
 Without context, on Ubuntu 14.04 LTS,`write`is a … (please select all correct answers):
 
-* 
+ * executable
 
-executable
+ * system call
 
-* 
+ * library call
 
-system call
+ * game
 
-* 
-
-library call
-
-* 
-
-game
-
-* 
-
-kernel routine
+ * kernel routine
 
 #### Question #9
 
 What is the return value of the system call`open`if it fails?
 
-* 
+ * 0
 
-0
+ * -1
 
-* 
-
--1
-
-* 
-
-98
+ * 98
 
 #### Question #10
 
 Most of the time, on a classic, modern Linux system, what will be the value of the first file descriptor you will get after opening a new file with`open`(if`open`succeeds of course):
 
-* 
+ * 0
 
-0
+ * 1
 
-* 
+ * 2
 
-1
+ * 3
 
-* 
+ * 4
 
-2
+ * 5
 
-* 
-
-3
-
-* 
-
-4
-
-* 
-
-5
-
-* 
-
-6
+ * 6
 
 #### Question #11
 
 why? #AlwaysAskWhy
 
-* 
+ * Because this will be the first opened file descriptor and in CS we start counting starting from`0`
 
-Because this will be the first opened file descriptor and in CS we start counting starting from`0`
+ * Because this will be the first opened file descriptor and we start counting starting from`1`
 
-* 
+ * Because this will be the second opened file descriptor for my process
 
-Because this will be the first opened file descriptor and we start counting starting from`1`
+ * Because this will be the third opened file descriptor for my process
 
-* 
+ * Because most of the time, I will already have`stdin`(value 0),`stdout`(value`1`) and`stderr`(value 2) opened when my program starts executing.
 
-Because this will be the second opened file descriptor for my process
-
-* 
-
-Because this will be the third opened file descriptor for my process
-
-* 
-
-Because most of the time, I will already have`stdin`(value 0),`stdout`(value`1`) and`stderr`(value 2) opened when my program starts executing.
-
-* 
-
-I don’t care I never ask why, just let me access the tasks!
+ * I don’t care I never ask why, just let me access the tasks!
 
 #### Question #12
 
 Which of these answers are the equivalent of`O_RDWR`on Ubuntu 14.04 LTS? (select all correct answers):
 
-* 
+ * O_RDONLY
 
-O_RDONLY
+ * 1
 
-* 
+ * 2
 
-1
+ * 3
 
-* 
+ * 1 << 1
 
-2
+ * 3 & 2
 
-* 
+ * 3 | 2
 
-3
+ * O_WRONLY
 
-* 
+ * (O_RDONLY + O_WRONLY)
 
-1 << 1
+ * (O_RDONLY | O_WRONLY)
 
-* 
+ * (O_RDONLY & O_WRONLY)
 
-3 & 2
+ * (O_RDONLY && O_WRONLY)
 
-* 
+ * (O_RDONLY << 1)
 
-3 | 2
+ * (O_WRONLY << 1)
 
-* 
-
-O_WRONLY
-
-* 
-
-(O_RDONLY + O_WRONLY)
-
-* 
-
-(O_RDONLY | O_WRONLY)
-
-* 
-
-(O_RDONLY & O_WRONLY)
-
-* 
-
-(O_RDONLY && O_WRONLY)
-
-* 
-
-(O_RDONLY << 1)
-
-* 
-
-(O_WRONLY << 1)
-
-* 
-
-0
+ * 0
 
 #### Tips:
 
@@ -364,21 +238,13 @@ Use`printf`or read the headers to see the definitions/values of these macros.
 
 What happens if you try to write “Best” to the standard**input**on Ubuntu 14.04 LTS?
 
-* 
+ * Nothing
 
-Nothing
+ * Segmentation fault
 
-* 
+ * The text will be printed on the terminal but I can’t pipe it
 
-Segmentation fault
-
-* 
-
-The text will be printed on the terminal but I can’t pipe it
-
-* 
-
-The text will be printed on the terminal on the standard output
+ * The text will be printed on the terminal on the standard output
 
 #### Tips:
 
@@ -388,13 +254,9 @@ Just try it! :)
 
 When I am using`O_WRONLY | O_CREAT | O_APPEND`-> the`|`are bitwise operators.
 
-* 
+ * True
 
-True
-
-* 
-
-False
+ * False
 
 
 ----

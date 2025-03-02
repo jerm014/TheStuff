@@ -1,7 +1,7 @@
 # Project 2124: Python - Classes and Objects
 ----
 
-* [Quiz](#quiz)
+
 
 ![1](2124_1.jpg)
 

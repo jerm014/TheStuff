@@ -1,7 +1,7 @@
 # Project 2144: Advanced CSS
 ----
 
-* [Quiz](#quiz)
+
 
 *For this project, we expect you to look at these concepts:*
 
@@ -54,19 +54,19 @@ At the end of this project, you are expected to be able to[explain to anyone](ht
 
 ![2](2144_2.jpg)
 
-[download favicon.jpg](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2019/10/2ba3a0d7878316de5aaa.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250301%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250301T092259Z&X-Amz-Expires=345600&X-Amz-SignedHeaders=host&X-Amz-Signature=c77b7fbed37a39c04003f4750345fba33412eb183712c231453491ec359af1da)
+[download favicon.jpg](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2019/10/2ba3a0d7878316de5aaa.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250302%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250302T014601Z&X-Amz-Expires=345600&X-Amz-SignedHeaders=host&X-Amz-Signature=8f8103cf68d42b00c118c39d435053e0c22e603aa76b99c0ce668e588ac02821)
 
 #### `logo-black.png`
 
 ![1](2144_1.png)
 
-[download logo-black.png](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2019/10/06f32e89f2a82582234e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250301%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250301T092259Z&X-Amz-Expires=345600&X-Amz-SignedHeaders=host&X-Amz-Signature=d2c593c7ebd732e2ad9b9014e9e0cdf5054cb8b2d6e4541b16f69783c0e1be70)
+[download logo-black.png](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2019/10/06f32e89f2a82582234e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250302%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250302T014601Z&X-Amz-Expires=345600&X-Amz-SignedHeaders=host&X-Amz-Signature=9309d59b319b2a25a4b193002d97aaec13a87d7298e9fc2622e12bb7aa6338f5)
 
 #### `logo-white.png`
 
 ![2](2144_2.png)
 
-[download logo-white.png](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2019/10/0fa48a04048a2d050cab.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250301%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250301T092259Z&X-Amz-Expires=345600&X-Amz-SignedHeaders=host&X-Amz-Signature=49462a80bece8a1a29204a70aed368e5ff29f541f691b5b44028925ef0a6d6e5)
+[download logo-white.png](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2019/10/0fa48a04048a2d050cab.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250302%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250302T014601Z&X-Amz-Expires=345600&X-Amz-SignedHeaders=host&X-Amz-Signature=4c5b7b69b7a35f4d45f6430602fe7b8bac949fcdf405452b8b0c3eb7651ad9cb)
 
 Store all these under a directory named “images”
 
@@ -410,7 +410,7 @@ Use the following starter HTML file for your project.
         <hr>
         <div class="row">
           <div class="col-1-2">
-            <p class="footer-copyright">© 2020 Techium, made with <heart> by students at Holberton School.</p>
+            <p class="footer-copyright">© 2020 Techium, made with <heart_character> by students at Holberton School.</p>
           </div>
           <div class="col-1-2">
             <ul class="footer-nav nav">

@@ -1,7 +1,7 @@
 # Project 2168: C - Singly linked lists
 ----
 
-* [Quiz](#quiz)
+
 
 *For this project, we expect you to look at this concept:*
 
@@ -67,117 +67,69 @@ typedef struct list_s
 
 What’s a node? (select all possible answers)
 
-* 
+ * It’s a server
 
-It’s a server
+ * It’s a structure with a pointer to the next node and value information
 
-* 
+ * It’s a cell in an array
 
-It’s a structure with a pointer to the next node and value information
+ * It’s an integer
 
-* 
-
-It’s a cell in an array
-
-* 
-
-It’s an integer
-
-* 
-
-It’s a space allocated in memory
+ * It’s a space allocated in memory
 
 #### Question #1
 
 What’s the “head” of a linked list?
 
-* 
+ * It’s the last node
 
-It’s the last node
+ * It’s the node with the highest value
 
-* 
+ * It’s the first node
 
-It’s the node with the highest value
+ * It’s the node with the lowest value
 
-* 
-
-It’s the first node
-
-* 
-
-It’s the node with the lowest value
-
-* 
-
-It’s the node with the pointer to the next equals to`NULL`
+ * It’s the node with the pointer to the next equals to`NULL`
 
 #### Question #2
 
 What’s the “tail” of a linked list?
 
-* 
+ * It’s the node with the pointer to the next equals to`NULL`
 
-It’s the node with the pointer to the next equals to`NULL`
+ * It’s the first node
 
-* 
+ * It’s the node with the highest value
 
-It’s the first node
-
-* 
-
-It’s the node with the highest value
-
-* 
-
-It’s the node with the lowest value
+ * It’s the node with the lowest value
 
 #### Question #3
 
 In a singly linked list, what are possible directions to traverse it? (select all possible answers)
 
-* 
+ * Forward
 
-Forward
-
-* 
-
-Backward
+ * Backward
 
 #### Question #4
 
 Arrays Vs Linked Lists: select all true statements
 
-* 
+ * We can add elements indefinitely to a linked list
 
-We can add elements indefinitely to a linked list
+ * We can add elements indefinitely to an array
 
-* 
+ * Linked list can contain as value a structure
 
-We can add elements indefinitely to an array
+ * Array can contain as value a structure
 
-* 
+ * We can easily remove an element from an Array
 
-Linked list can contain as value a structure
+ * We can easily remove an element from a Linked list
 
-* 
+ * Memory is aligned for a Linked list - each elements are back to back in the memory
 
-Array can contain as value a structure
-
-* 
-
-We can easily remove an element from an Array
-
-* 
-
-We can easily remove an element from a Linked list
-
-* 
-
-Memory is aligned for a Linked list - each elements are back to back in the memory
-
-* 
-
-Memory is aligned for an Array - each elements are back to back in the memory
+ * Memory is aligned for an Array - each elements are back to back in the memory
 
 
 ----

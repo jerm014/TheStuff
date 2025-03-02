@@ -368,7 +368,7 @@ How do you list all`users`records with`age > 21`in this table?
 ---
 ### 0. List databases
 
-Write a script that lists all databases of your MySQL server.
+Write a script that lists all databases of your MySQL server.<!--plain-NL-->
 
 ```
 guillaume@ubuntu:~/$ cat 0-list_databases.sql | mysql -hlocalhost -uroot -p
@@ -392,7 +392,7 @@ guillaume@ubuntu:~/$
 ---
 ### 1. Create a database
 
-Write a script that creates the database hbtn_0c_0 in your MySQL server.
+Write a script that creates the database <!--plain-NL-->`hbtn_0c_0`<!--inline-NL--> in your MySQL server.<!--plain-NL-->
 
 - If the database `hbtn_0c_0` already exists, your script should not fail
 - You are not allowed to use the `SELECT` or `SHOW` statements
@@ -423,7 +423,7 @@ guillaume@ubuntu:~/$
 ---
 ### 2. Delete a database
 
-Write a script that deletes the database hbtn_0c_0 in your MySQL server.
+Write a script that deletes the database <!--plain-NL-->`hbtn_0c_0`<!--inline-NL--> in your MySQL server.<!--plain-NL-->
 
 - If the database `hbtn_0c_0` doesn’t exist, your script should not fail
 - You are not allowed to use the `SELECT` or `SHOW` statements
@@ -460,7 +460,7 @@ guillaume@ubuntu:~/$
 ---
 ### 3. List tables
 
-Write a script that lists all the tables of a database in your MySQL server.
+Write a script that lists all the tables of a database in your MySQL server.<!--plain-NL-->
 
 - The database name will be passed as argument of `mysql` command (in the following example: `mysql` is the name of the database)
 
@@ -517,7 +517,7 @@ guillaume@ubuntu:~/$
 ---
 ### 4. First table
 
-Write a script that creates a table called first_table in the current database in your MySQL server.
+Write a script that creates a table called <!--plain-NL-->`first_table`<!--inline-NL--> in the current database in your MySQL server.<!--plain-NL-->
 
 - `first_table` description:
 
@@ -554,7 +554,7 @@ guillaume@ubuntu:~/$
 ---
 ### 5. Full description
 
-Write a script that prints the following description of the table first_table from the database hbtn_0c_0 in your MySQL server.
+Write a script that prints the following description of the table <!--plain-NL-->`first_table`<!--inline-NL--> from the database <!--plain-NL-->`hbtn_0c_0`<!--inline-NL--> in your MySQL server.<!--plain-NL-->
 
 - The database name will be passed as an argument of the `mysql` command
 - You are not allowed to use the `DESCRIBE` or `EXPLAIN` statements
@@ -578,7 +578,7 @@ guillaume@ubuntu:~/$
 ---
 ### 6. List all in table
 
-Write a script that lists all rows of the table first_table from the database hbtn_0c_0 in your MySQL server.
+Write a script that lists all rows of the table <!--plain-NL-->`first_table`<!--inline-NL--> from the database <!--plain-NL-->`hbtn_0c_0`<!--inline-NL--> in your MySQL server.<!--plain-NL-->
 
 - All fields should be printed
 - The database name will be passed as an argument of the `mysql` command
@@ -600,7 +600,7 @@ guillaume@ubuntu:~/$
 ---
 ### 7. First add
 
-Write a script that inserts a new row in the table first_table (database hbtn_0c_0) in your MySQL server.
+Write a script that inserts a new row in the table <!--plain-NL-->`first_table`<!--inline-NL--> (database <!--plain-NL-->`hbtn_0c_0`<!--inline-NL-->) in your MySQL server.<!--plain-NL-->
 
 - New row:
 
@@ -645,7 +645,7 @@ guillaume@ubuntu:~/$
 ---
 ### 8. Count 89
 
-Write a script that displays the number of records with id = 89 in the table first_table of the database hbtn_0c_0 in your MySQL server.
+Write a script that displays the number of records with <!--plain-NL-->`id = 89`<!--inline-NL--> in the table <!--plain-NL-->`first_table`<!--inline-NL--> of the database <!--plain-NL-->`hbtn_0c_0`<!--inline-NL--> in your MySQL server.<!--plain-NL-->
 
 - The database name will be passed as an argument of the `mysql` command
 
@@ -667,7 +667,7 @@ guillaume@ubuntu:~/$
 ---
 ### 9. Full creation
 
-Write a script that creates a table second_table in the database hbtn_0c_0 in your MySQL server and add multiples rows.
+Write a script that creates a table <!--plain-NL-->`second_table`<!--inline-NL--> in the database <!--plain-NL-->`hbtn_0c_0`<!--inline-NL--> in your MySQL server and add multiples rows.<!--plain-NL-->
 
 - `second_table` description:
 
@@ -719,7 +719,7 @@ guillaume@ubuntu:~/$
 ---
 ### 10. List by best
 
-Write a script that lists all records of the table second_table of the database hbtn_0c_0 in your MySQL server.
+Write a script that lists all records of the table <!--plain-NL-->`second_table`<!--inline-NL--> of the database <!--plain-NL-->`hbtn_0c_0`<!--inline-NL--> in your MySQL server.<!--plain-NL-->
 
 - Results should display both the score and the name (in this order)
 - Records should be ordered by score (top first)
@@ -747,7 +747,7 @@ guillaume@ubuntu:~/$
 ---
 ### 11. Select the best
 
-Write a script that lists all records with a score >= 10 in the table second_table of the database hbtn_0c_0 in your MySQL server.
+Write a script that lists all records with a <!--plain-NL-->`score >= 10`<!--inline-NL--> in the table <!--plain-NL-->`second_table`<!--inline-NL--> of the database <!--plain-NL-->`hbtn_0c_0`<!--inline-NL--> in your MySQL server.<!--plain-NL-->
 
 - Results should display both the score and the name (in this order)
 - Records should be ordered by score (top first)
@@ -773,7 +773,7 @@ guillaume@ubuntu:~/$
 ---
 ### 12. Cheating is bad
 
-Write a script that updates the score of Bob to 10 in the table second_table.
+Write a script that updates the score of Bob to <!--plain-NL-->`10`<!--inline-NL--> in the table <!--plain-NL-->`second_table`<!--inline-NL-->.<!--plain-NL-->
 
 - You are not allowed to use Bob’s id value, only the `name` field
 - The database name will be passed as an argument of the `mysql` command
@@ -802,7 +802,7 @@ guillaume@ubuntu:~/$
 ---
 ### 13. Score too low
 
-Write a script that removes all records with a score <= 5 in the table second_table of the database hbtn_0c_0 in your MySQL server.
+Write a script that removes all records with a <!--plain-NL-->`score <= 5`<!--inline-NL--> in the table <!--plain-NL-->`second_table`<!--inline-NL--> of the database <!--plain-NL-->`hbtn_0c_0`<!--inline-NL--> in your MySQL server.<!--plain-NL-->
 
 - The database name will be passed as an argument of the `mysql` command
 
@@ -829,7 +829,7 @@ guillaume@ubuntu:~/$
 ---
 ### 14. Average
 
-Write a script that computes the score average of all records in the table second_table of the database hbtn_0c_0 in your MySQL server.
+Write a script that computes the score average of all records in the table <!--plain-NL-->`second_table`<!--inline-NL--> of the database <!--plain-NL-->`hbtn_0c_0`<!--inline-NL--> in your MySQL server.<!--plain-NL-->
 
 - The result column name should be `average`
 - The database name will be passed as an argument of the `mysql` command
@@ -853,7 +853,7 @@ guillaume@ubuntu:~/$
 ---
 ### 15. Number by score
 
-Write a script that lists the number of records with the same score in the table second_table of the database hbtn_0c_0 in your MySQL server.
+Write a script that lists the number of records with the same score in the table <!--plain-NL-->`second_table`<!--inline-NL--> of the database <!--plain-NL-->`hbtn_0c_0`<!--inline-NL--> in your MySQL server.<!--plain-NL-->
 
 - The result should display:
 
@@ -888,14 +888,14 @@ guillaume@ubuntu:~/$
 ---
 ### 16. Say my name
 
-Write a script that lists all records of the table second_table of the database hbtn_0c_0 in your MySQL server.
-
-In this example, new data have been added to the table second_table.
+Write a script that lists all records of the table <!--plain-NL-->`second_table`<!--inline-NL--> of the database <!--plain-NL-->`hbtn_0c_0`<!--inline-NL--> in your MySQL server.<!--plain-NL-->
 
 - Don’t list rows without a `name` value
 - Results should display the score and the name (in this order)
 - Records should be listed by descending score
 - The database name will be passed as an argument to the `mysql` command
+
+In this example, new data have been added to the table <!--plain-NL-->`second_table`<!--inline-NL-->.<!--plain-NL-->
 
 ```
 guillaume@ubuntu:~/$ cat 16-no_link.sql | mysql -hlocalhost -uroot -p hbtn_0c_0

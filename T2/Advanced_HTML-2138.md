@@ -1,7 +1,7 @@
 # Project 2138: Advanced HTML
 ----
 
-* [Quiz](#quiz)
+
 
 *For this project, we expect you to look at this concept:*
 
@@ -1508,12 +1508,12 @@ W3C does not need to pass.
 
 
 add a horizontal rule
-after the horizontal rule add a paragraph with text `© 2020 Techium, made with <heart> by students at Holberton School.`
+after the horizontal rule add a paragraph with text `© 2020 Techium, made with <heart_character> by students at Holberton School.`
 - add a horizontal rule
-- after the horizontal rule add a paragraph with text `© 2020 Techium, made with <heart> by students at Holberton School.`
+- after the horizontal rule add a paragraph with text `© 2020 Techium, made with <heart_character> by students at Holberton School.`
 
 - add a horizontal rule
-- after the horizontal rule add a paragraph with text `© 2020 Techium, made with <heart> by students at Holberton School.`
+- after the horizontal rule add a paragraph with text `© 2020 Techium, made with <heart_character> by students at Holberton School.`
 
 **Repo:**
 

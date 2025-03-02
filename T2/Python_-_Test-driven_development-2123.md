@@ -1,7 +1,7 @@
 # Project 2123: Python - Test-driven development
 ----
 
-* [Quiz](#quiz)
+
 
 ![1](2123_1.gif)
 

@@ -1,7 +1,7 @@
 # Project 2127: Python - Inheritance
 ----
 
-* [Quiz](#quiz)
+
 ## Resources
 
 **Read or watch**:
