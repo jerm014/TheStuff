@@ -1,0 +1,12 @@
+ - [2191: C - Makefiles](C_-_Makefiles-2191.md)<!--project.index=0-->
+ - [2208: C - Static variables, getline](C_-_Static_variables__getline-2208.md)<!--project.index=1-->
+ - [2205: C - ls](C_-_ls-2205.md)<!--project.index=2-->
+ - [2210: C - Shell v2](C_-_Shell_v2-2210.md)<!--project.index=3-->
+ - [2212: Python - /proc filesystem](Python_-__proc_filesystem-2212.md)<!--project.index=4-->
+ - [2215: C - ELF: readelf](C_-_ELF__readelf-2215.md)<!--project.index=5-->
+ - [2220: x86 Assembly - libASM](x86_Assembly_-_libASM-2220.md)<!--project.index=6-->
+ - [2214: C - Signals](C_-_Signals-2214.md)<!--project.index=7-->
+ - [2216: C - ELF: nm/objdump](C_-_ELF__nm_objdump-2216.md)<!--project.index=8-->
+ - [2192: CPython](CPython-2192.md)<!--project.index=9-->
+ - [3064: Hack Week in C++](Hack_Week_in_C++-3064.md)<!--project.index=10-->
+ - [3065: Technical Writing: The Relationship Between Low- and High-Level Languages](Technical_Writing__The_Relationship_Between_Low-_and_High-Level_Languages-3065.md)<!--project.index=11-->
